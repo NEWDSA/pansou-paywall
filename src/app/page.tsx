@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import { isDemoMode } from "@/lib/db";
+import { isDemoMode } from "@/lib/config";
 
 function getDemoUnlockedSet(): Set<number> {
   try {
