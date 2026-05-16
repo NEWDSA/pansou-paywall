@@ -1,5 +1,5 @@
 // 纯客户端可用的演示数据（无 Node.js 依赖）
-export const isDemoMode = true;
+// 注意：演示模式判断由 page.tsx 从 db.ts 导入 isDemoMode，这里只负责前端展示数据
 
 export const DEMO_RESULTS = [
   {
